@@ -54,25 +54,36 @@
 }
 .ie8 .icon li a span {display: none;} /* ie8 버전에서는 툴팁박스인 span을 제거 */
 
+/* nav */
+.nav {padding: 30px 0;}
+.nav h2 {font-size: 22px; color: #25a2d0; padding-bottom: 5px; text-transform: uppercase;}
+.nav li {float: left; width: 20%; position: relative; padding: 8px 0 2px 0; box-sizing: border-box;}
+.nav li:before {
+    content: ''; width: 3px; height: 3px; border-radius: 50%; background-color: #25a2d0; position: absolute; left: -5px; top: 14px;
+}
+.nav li a {padding: 3px; border-radius: 2px; font-size: 13px; line-height: 15px; color: #333; transition: all 0.1s;}
+.nav li a:hover {background-color: #25a2d0; color: #fff;}
+
 /* media query 320 / 480 / 600 / 768 / 960 / 1024 / 1280 */
 @media (max-width: 1280px){
     .container {width: 100%;}
+    .row {padding: 0 15px;}
 }
 
 @media (max-width: 1024px){
-
+    .nav li {width: 25%;}
 }
 
 @media (max-width: 960px){
-    
+    .nav li {width: 33.33%;}
 }
 
 @media (max-width: 768px){
-    
+    .nav li {width: 50%;}
 }
 
 @media (max-width: 600px){
-    
+    .nav li {display: none;}
 }
 
 @media (max-width: 480px){

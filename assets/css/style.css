@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,900');
 
 /* layout */
-body {background-color: #f1f4fb;}
+body {background-color: #e1e4eb;}
 #header {height: 327px; background: url(../img/header_bg.jpg) repeat-x center top;}
+#tit {background-color: #fff;}
 
 /* container */
-.container {width: 1200px; margin: 0 auto;}
+.container {width: 1200px; margin: 0 auto; position: relative;}
 
 /* quick */
 .quick {text-align: right;}
@@ -64,6 +65,18 @@ body {background-color: #f1f4fb;}
 }
 .nav li a {padding: 3px; border-radius: 2px; font-size: 13px; line-height: 15px; color: #333; transition: all 0.1s;}
 .nav li a:hover {background-color: #25a2d0; color: #fff;}
+
+/* tit */
+.tit {text-align: center; padding: 15px 0;}
+.tit h2 {font-family: 'Nanum Brush Script'; font-size: 39px; color: #0093bd;}
+.tit .tit_btn {
+    position: absolute; right: 0; top: 8px;
+    display: inline-block; width: 60px; height: 60px;
+    background-color: #3192bf; color: #fff; font-size: 35px; border-radius: 50%;
+}
+
+.tit .tit_btn i {line-height: 60px;}
+
 
 /* media query 320 / 480 / 600 / 768 / 960 / 1024 / 1280 */
 @media (max-width: 1280px){

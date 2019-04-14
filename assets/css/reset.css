@@ -15,11 +15,16 @@ body, th, td, input, select, textarea, button {
     font-family: 'Nanum Gothic', '나눔 고딕', 'Malgun Gothic', '맑은 고딕', dotum, '돋움';
 }
 
-/* 폰트 스타일 초기화 */
+/* 폰트 초기화 */
 a {color: #222; text-decoration: none;}
 a:hover {color: #118eff; text-decoration: none;}
 a:active {background-color: transparent;}
+
+/* 폰트 스타일 초기화 */
 address, caption, cite, code, dfn, em, var {font-style: normal; font-weight: normal;}
+
+/* 폰트 두께 초기화 */
+h1, h2, h3, h4, h5, h6, strong {font-weight: normal;}
 
 /* 블라인드 효과 */
 .blind {position: absolute; left: 0; top: 0; width: 0; height: 0; line-height: 0; font-size: 0; overflow: hidden;}

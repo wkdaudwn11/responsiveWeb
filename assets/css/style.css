@@ -7,6 +7,12 @@
 body {background-color: #e1e4eb;}
 #header {height: 327px; background: url(../img/header_bg.jpg) repeat-x center top;}
 #tit {background-color: #fff;}
+#nav {display: none;}
+#contents {}
+#cont_left {float: left; width: 250px; height: 1000px; background-color: #333;}
+#cont_center {overflow: hidden;  height: 1000px;background-color: #444; margin-right: 250px;}
+#cont_right {position: absolute; right: 0; top: 0; width: 250px; height: 1000px; background-color: #555;}
+#footer {width: 100%; height: 200px; background-color: #666;}
 
 /* container */
 .container {width: 1200px; margin: 0 auto; position: relative;}

@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* font-family: 'Orbitron', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,900');
+
 /* layout */
 #header {height: 327px; background: url(../img/header_bg.jpg) repeat-x center top;}
 
@@ -10,6 +13,11 @@
 .quick {text-align: right;}
 .quick a {color: #fff; padding: 4px 0 4px 10px; display: inline-block; transition: color 0.3s ease;}
 .quick a:hover {color: #ccc;}
+
+/* title */
+.title {text-align: center; text-transform: uppercase; margin-top: 70px; font-family: 'Orbitron', sans-serif;}
+.title p {font-size: 27px; color: #fff; background-color: #51b0dc; display: inline-block; padding: 14px 20px 10px 20px; font-weight: 900;}
+.title h1 a {color: #fff; background-color: #4a9abf; padding: 14px 20px 10px 20px; display: inline-block; font-size: 14px; font-weight: 400; margin-top: -7px;}
 
 /* media query 320 / 480 / 600 / 768 / 960 / 1024 / 1280 */
 @media (max-width: 1280px){

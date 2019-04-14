@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,900');
 
 /* layout */
+body {background-color: #f1f4fb;}
 #header {height: 327px; background: url(../img/header_bg.jpg) repeat-x center top;}
 
 /* container */
@@ -83,7 +84,7 @@
 }
 
 @media (max-width: 600px){
-    .nav li {display: none;}
+    .nav {display: none;}
 }
 
 @media (max-width: 480px){

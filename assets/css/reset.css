@@ -23,3 +23,8 @@ address, caption, cite, code, dfn, em, var {font-style: normal; font-weight: nor
 
 /* 블라인드 효과 */
 .blind {position: absolute; left: 0; top: 0; width: 0; height: 0; line-height: 0; font-size: 0; overflow: hidden;}
+
+/* clearfix (float:left를 사용하면 영역이 깨지는데, 그 전 후의 영역이 안깨지게끔 고정시켜주는 역할) */
+.clearfix:before, .clearfix:after {display: block; content: ''; line-height: 0;}
+.clearfix{*zoom: 1;} /* IE7 대비 */
+.clearfix:after {clear: both;}
